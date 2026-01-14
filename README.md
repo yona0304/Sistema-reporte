@@ -35,10 +35,12 @@ como el frontend del sistema.
 ## 🧩 Funcionalidades principales
 
 ### 🏠 Inicio
+
 - Página principal con mensaje de bienvenida.
 - Instrucciones básicas para el uso del sistema.
 
 ### 📝 Registro de tareas
+
 - Registro de tareas con campos como:
   - Perfil
   - Producto
@@ -54,6 +56,7 @@ como el frontend del sistema.
 - Opción para indicar si la tarea aplica para reporte ECP.
 
 ### 📋 Lista de tareas
+
 - Visualización de tareas registradas.
 - Acciones disponibles:
   - Edición de tareas
@@ -61,6 +64,7 @@ como el frontend del sistema.
   - Finalización de tareas
 
 ### 📊 Reportes
+
 - Generación de:
   - Reporte de tiempo
   - Reporte de producto
@@ -68,15 +72,18 @@ como el frontend del sistema.
 - Exportación de reportes a archivos Excel.
 
 ### 🕒 Historial
+
 - Consulta del historial de reportes.
 - Gestión de registros según permisos del usuario.
 
 ### 👥 Gestión de usuarios
+
 - Creación, edición e inhabilitación de usuarios.
 - Asignación de roles, cargos y estados.
 - Control de acceso según rol.
 
 ### 🔐 Seguridad
+
 - Sistema de autenticación.
 - Cambio de contraseña.
 - Cierre de sesión seguro.
@@ -86,19 +93,23 @@ como el frontend del sistema.
 ## 🛠️ Tecnologías utilizadas
 
 ### Backend
+
 - Laravel
 - PHP
 - Eloquent ORM
 
 ### Frontend
+
 - Blade
 - Tailwind CSS
 - JavaScript
 
 ### Base de datos
+
 - MySQL / MariaDB
 
 ### Librerías y herramientas
+
 - Laravel Excel (exportación de reportes)
 - SweetAlert2 (alertas y confirmaciones)
 - Git (control de versiones)
@@ -110,13 +121,22 @@ como el frontend del sistema.
 > Las siguientes imágenes corresponden a capturas reales del sistema en funcionamiento.
 
 ### Página de inicio
+
 ![Inicio del sistema](images/inicio.png)
 
 ### Registro de tareas
+
 ![Registro de tareas](images/registro_tarea.png)
 
 ### Gestión de usuarios
+
 ![Gestión de usuarios](images/usuarios.png)
+
+### Descargar reporte de productos
+
+Este modulo solo es permitido para ciertos usuarios.
+
+![Descargar reporte de productos](images/descargar_reporte.png)
 
 ---
 
